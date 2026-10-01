@@ -13,9 +13,26 @@ public class HelloWorld {
         if (word.equals("good")) {
             System.out.println("Happy to hear that!");
 
-        }else {
+        } else {
             System.out.println("Hope your day gets better?");
         }
 
+        System.out.println("How old are you?");
+
+        Scanner scan2 = new Scanner(System.in);
+        int number = scan2.nextInt();
+
+
+        if (number <= 17) {
+            System.out.println("You are to young to enter this webpage");
+        } else {
+            System.out.println("Welcome");
+        }
+
+
+
+
+
     }
 }
+
