@@ -23,10 +23,16 @@ public class HelloWorld {
         int number = scan2.nextInt();
 
 
-        if (number <= 17) {
-            System.out.println("You are to young to enter this webpage");
-        } else {
+        if (number >= 18) {
             System.out.println("Welcome");
+            Scanner scan3 = new Scanner(System.in);
+
+            System.out.println("Which country are you from");
+            String word2 = scan3.nextLine();
+            System.out.println(word2 + " is a nice country to live in");
+        } else {
+            System.out.println("You are to young to enter this webpage");
+
         }
 
 
