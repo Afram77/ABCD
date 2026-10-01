@@ -9,8 +9,8 @@ public class HelloWorld {
 
         Scanner scan = new Scanner(System.in);
 
-        String word = scan.nextLine();
-        if (word.equals("God")) {
+        String word = scan.nextLine().toLowerCase();
+        if (word.equals("good")) {
             System.out.println("Happy to hear that!");
 
         }else {
