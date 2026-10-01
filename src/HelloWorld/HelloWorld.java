@@ -14,7 +14,7 @@ public class HelloWorld {
             System.out.println("Happy to hear that!");
 
         }else {
-            System.out.println("Hope you day gets better?");
+            System.out.println("Hope your day gets better?");
         }
 
     }
